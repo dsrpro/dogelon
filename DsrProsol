@@ -631,14 +631,14 @@ contract ERC20 is Context, IERC20 {
     function _beforeTokenTransfer(address from, address to, uint256 amount) internal virtual { }
 }
 
-// File: contracts/DOGELON.sol
+// File: contracts/DsrPro.sol
 
-// contracts/DOGELON.sol
+// contracts/DsrPro.sol
 pragma solidity ^0.7.1;
 
 
-contract Dogelon is ERC20 {
-    constructor() ERC20("Dogelon", "ELON") public {
+contract DSRPRO is ERC20 {
+    constructor() ERC20("DsrPro", "ProByPro") public {
         _mint(msg.sender, 10e32);
     }
 }
